@@ -1,4 +1,4 @@
-public class AlgorithmsSearch2 {
+public class Search2 {
     public static void main(String[] args) {
 
         int[] arr = new int[]{-2, 0, 3, 5, 7, 9, 11, 15, 18};

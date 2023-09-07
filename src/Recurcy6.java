@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Stack;
 
-public class AlgorithmsRecurcy6 {
+public class Recurcy6 {
 
     public static void main(String[] args) {
 

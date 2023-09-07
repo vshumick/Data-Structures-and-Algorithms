@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class AlgorithmsSort4 {
+public class Sort4 {
     public static void main(String[] args) {
         int arrLength = 100;
         int min = 0;

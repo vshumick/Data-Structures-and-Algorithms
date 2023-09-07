@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd2e0de1-8ed4-4857-9197-cb10e37129fe" name="Changes" comment="" />
+    <list default="true" id="dd2e0de1-8ed4-4857-9197-cb10e37129fe" name="Changes" comment="Data Structures and Algorithms">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsCombinatorica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combinatorica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsCombinatorica4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combinatorica4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsCombinatorica5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combinatorica5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsList7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsRecurcy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recurcy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsRecurcy6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recurcy6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsSearch2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsSearch3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsSort4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlgorithmsStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2V44Xgs81Q8Fx5wzpyztdJdlQVv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -20,10 +43,39 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Sort">
+    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyList" />
+      <module name="Data-Structures-and-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort" />
+      <module name="Data-Structures-and-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.MyList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,8 +84,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694082068753</updated>
-      <workItem from="1694082069882" duration="1000" />
+      <workItem from="1694082069882" duration="1322000" />
+      <workItem from="1694083484151" duration="700000" />
     </task>
+    <task id="LOCAL-00001" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1694082355726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694082355726</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1694083370324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694083370324</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Data Structures and Algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structures and Algorithms" />
   </component>
 </project>

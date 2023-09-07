@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class AlgorithmsStack {
+public class Stack {
     public static void main(String[] args) {
 
         //MyArrayStack stack = new MyArrayStack();

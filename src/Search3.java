@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class AlgorithmsSearch3 {
+public class Search3 {
     public static void main(String[] args) {
 
 

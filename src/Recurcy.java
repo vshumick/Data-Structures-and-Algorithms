@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class AlgorithmsRecurcy {
+public class Recurcy {
     static Map<Integer, Long> mem = new HashMap();
     public static void main(String[] args) {
 

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class AlgorithmsCombinatorica5 {
+public class Combinatorica5 {
     private static int cnt = 1;
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-public class AlgorithmsList7 {
+public class List7 {
     public static void main(String[] args) {
         DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
         doublyLinkedList.addFirst(1);

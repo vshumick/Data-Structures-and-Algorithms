@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class AlgorithmsList {
+public class MyList {
     public static void main(String[] args) {
 
         /*MyArrayList myArrayList = new MyArrayList();

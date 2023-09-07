@@ -1,4 +1,4 @@
-public class AlgorithmsQueue {
+public class Queue {
     public static void main(String[] args) {
         //MyArrayQueue q = new MyArrayQueue();
         MyLinkedQueue q = new MyLinkedQueue();

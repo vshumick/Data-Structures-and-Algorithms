@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class AlgorithmsSearch {
+public class Search {
     public static void main(String[] args) {
         String[] arr1 = new String[]{"Cat1", "Cat2", "Cat3", "Cat4", "Cat5", "Cat6", "Cat7", "Cat8",
                                     "Cat9", "Cat10"};

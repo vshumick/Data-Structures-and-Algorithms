@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class AlgorithmsCombinatorica {
+public class Combinatorica {
     public static void main(String[] args) {
         //int[] arr = new int[]{1, 2, 3, 4, 5};
         int[] number = new int[]{0, 1, 2, 3, 4};

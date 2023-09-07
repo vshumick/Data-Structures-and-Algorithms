@@ -2,9 +2,9 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Stack;
 
-public class AlgorithmsSort {
+public class Sort {
     public static void main(String[] args) {
-        int arrLength = 100000000;
+        int arrLength = 100;
         int min = 0;
         int max = 1000;
 
@@ -19,7 +19,7 @@ public class AlgorithmsSort {
                              //{1,1,1}
                              //{1,1,1,1}
                              {3,2,2}
-                                                              ;*/
+                ;*/
 
         //System.out.println(Arrays.toString(arr));
 
@@ -43,7 +43,7 @@ public class AlgorithmsSort {
         //System.out.println(Arrays.toString(arr));
 
         System.out.println("Elapsed time: " + (System.currentTimeMillis() - timeStart));
-        ///System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
 
 
 
