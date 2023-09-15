@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd2e0de1-8ed4-4857-9197-cb10e37129fe" name="Changes" comment="Data Structures and Algorithms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyHashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +52,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework9">
-    <configuration name="HashDivisionFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashDivisionFunc" />
-      <module name="Data-Structures-and-Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashTransition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTransition" />
+  <component name="RunManager" selected="Application.Homework10">
+    <configuration name="Homework10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework10" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test32" />
+    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task11" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,12 +81,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test34" />
+      <module name="Data-Structures-and-Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework10" />
+        <item itemvalue="Application.Test34" />
+        <item itemvalue="Application.Task11" />
         <item itemvalue="Application.Homework9" />
         <item itemvalue="Application.Test33" />
-        <item itemvalue="Application.HashDivisionFunc" />
-        <item itemvalue="Application.Test32" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +108,7 @@
       <updated>1694082068753</updated>
       <workItem from="1694082069882" duration="1322000" />
       <workItem from="1694083484151" duration="27895000" />
+      <workItem from="1694619017081" duration="26585000" />
     </task>
     <task id="LOCAL-00001" summary="Data Structures and Algorithms">
       <option name="closed" value="true" />
@@ -131,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694091291577</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1694619059471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694619059471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,23 +167,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MyHashTable.java</url>
-          <line>131</line>
+          <line>84</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyHashTableLinearProbing.java</url>
           <line>51</line>
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Homework9.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/src/MyHashTableLinearProbing.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Homework9.java</url>
+          <url>file://$PROJECT_DIR$/src/MyHashTableLinearProbing.java</url>
           <line>16</line>
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test34.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test34.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test34.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArithmeticException" package="java.lang" />

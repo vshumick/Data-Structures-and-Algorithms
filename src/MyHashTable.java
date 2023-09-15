@@ -2,62 +2,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyHashTable {
-    @Override
-    public String toString() {
-        StringBuilder str = new StringBuilder("MyHashTable{arr=");
-        boolean first1 = true;
-        for (List<MyPair> ls : arr) {
-            if (first1 != true) {
-                str.append(", ");
-            }
-            first1 = false;
-            str.append("{");
-            boolean first2 = true;
-            for (MyPair p : ls) {
-                if (first2 != true) {
-                    str.append(", ");
-                }
-                first2 = false;
-                /*if (first != true) {
-                    str.append(", ");
-                }
-                first = false;*/
-                str.append("[" + p.key + "=>" + p.value + "]");
-            }
-            str.append("}");
-        }
-        return String.valueOf(str.append('}'));
-    }
-
     public MyHashTable() {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = new ArrayList<MyPair>();
         }
     }
 
-    private class MyPair {
-        String key;
-        Object value;
-
-        public MyPair(String key, Object value) {
-            this.key = key;
-            this.value = value;
-        }
-    }
-
-    public int getCapacity() {
-        return capacity;
-    }
-
     private int capacity = 17;
     List<MyPair>[] arr = new ArrayList[this.capacity];
-
-    public int size() {
-        return size;
-    }
-
     private int size = 0;
-
     private double loadFactor = 0.75;
 
     private static int hashFunction(int key, int primeM) {
@@ -157,6 +110,44 @@ public class MyHashTable {
 
         }
     }
+    public int getCapacity() {
+        return capacity;
+    }
+    public int size() { return size; }
+    private class MyPair {
+        String key;
+        Object value;
 
+        public MyPair(String key, Object value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+    @Override
+    public String toString() {
+        StringBuilder str = new StringBuilder("MyHashTable{arr=");
+        boolean first1 = true;
+        for (List<MyPair> ls : arr) {
+            if (first1 != true) {
+                str.append(", ");
+            }
+            first1 = false;
+            str.append("{");
+            boolean first2 = true;
+            for (MyPair p : ls) {
+                if (first2 != true) {
+                    str.append(", ");
+                }
+                first2 = false;
+                /*if (first != true) {
+                    str.append(", ");
+                }
+                first = false;*/
+                str.append("[" + p.key + "=>" + p.value + "]");
+            }
+            str.append("}");
+        }
+        return String.valueOf(str.append('}'));
+    }
 
 }
