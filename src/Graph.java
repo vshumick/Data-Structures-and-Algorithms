@@ -2,25 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Graph {
-
-    class Node {
-        String key;
-        Object data;
-
-        public Node(String key, Object data) {
-            this.key = key;
-            this.data = data;
-        }
-
-        @Override
-        public String toString() {
-            return "Node{" +
-                    "key='" + key + '\'' +
-                    ", data=" + data +
-                    '}';
-        }
-    }
-
     List<Node> nodes;
     List<List<Node>> edges;
 
@@ -92,14 +73,48 @@ class Graph {
             }
         }
     }
+
+    public List<String> getAdjustanceNodes(String keyStart) {
+        Node node = findNode(keyStart);
+        if (node == null) {
+            return null;
+        }
+        List<String> nodeList = new ArrayList<>();
+        for (List<Node> edge : edges) {
+            if (edge.get(0) == node) {
+                nodeList.add(edge.get(1).key);
+            }
+            if (edge.get(1) == node) {
+                nodeList.add(edge.get(0).key);
+            }
+        }
+        return nodeList;
+    }
+
+    public boolean isNodesAdjustance(String key1, String key2) {
+        Node firstNode = findNode(key1);
+        Node secondNode = findNode(key2);
+        if (firstNode != null && secondNode != null) {
+            for (List<Node> edge : edges) {
+                if (edge.get(0) == firstNode && edge.get(1) == secondNode) {
+                    return true;
+                }
+                if (edge.get(1) == firstNode && edge.get(0) == secondNode) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         String nodes = "{";
         String edges = "{";
         boolean first = true;
 
-        for (Node n : this.nodes){
-            if (!first){
+        for (Node n : this.nodes) {
+            if (!first) {
                 nodes += ",";
             }
             first = false;
@@ -108,8 +123,8 @@ class Graph {
         nodes += "}";
 
         first = true;
-        for (List<Node> l : this.edges){
-            if (!first){
+        for (List<Node> l : this.edges) {
+            if (!first) {
                 edges += ",";
             }
             first = false;
@@ -121,5 +136,23 @@ class Graph {
                 "nodes=" + nodes +
                 ", edges=" + edges +
                 '}';
+    }
+
+    class Node {
+        String key;
+        Object data;
+
+        public Node(String key, Object data) {
+            this.key = key;
+            this.data = data;
+        }
+
+        @Override
+        public String toString() {
+            return "Node{" +
+                    "key='" + key + '\'' +
+                    ", data=" + data +
+                    '}';
+        }
     }
 }

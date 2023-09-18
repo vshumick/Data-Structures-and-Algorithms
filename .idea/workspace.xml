@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2e0de1-8ed4-4857-9197-cb10e37129fe" name="Changes" comment="Data Structures and Algorithms">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +110,8 @@
       <updated>1694082068753</updated>
       <workItem from="1694082069882" duration="1322000" />
       <workItem from="1694083484151" duration="27895000" />
-      <workItem from="1694619017081" duration="26585000" />
+      <workItem from="1694619017081" duration="26831000" />
+      <workItem from="1695035847303" duration="2655000" />
     </task>
     <task id="LOCAL-00001" summary="Data Structures and Algorithms">
       <option name="closed" value="true" />
@@ -142,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694619059471</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1694796080319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694796080319</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1694796096286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694796096286</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +223,11 @@
           <url>file://$PROJECT_DIR$/src/Test34.java</url>
           <line>7</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework10.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArithmeticException" package="java.lang" />

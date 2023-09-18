@@ -36,8 +36,30 @@ public class Homework10 {
         graph.addNode("d", null);
         graph.addNode("e", null);
 
+        graph.addEdge("a", "b");
+        graph.addEdge("a", "c");
+        graph.addEdge("a", "d");
+        graph.addEdge("a", "e");
+        graph.addEdge("b", "c");
+
         System.out.println(graph.nodes);
         System.out.println(graph);
+
+        graph.removeNode("b");
+        System.out.println(graph);
+        graph.addNode("b", null);
+        graph.addEdge("a", "b");
+        graph.addEdge("b", "c");
+
+        graph.removeEdge("a", "b");
+        System.out.println(graph);
+        graph.addEdge("a", "b");
+
+        System.out.println("Adjustance Nodes: " + graph.getAdjustanceNodes("b"));
+        System.out.println("Is Nodes Adjustance: " + graph.isNodesAdjustance("d", "c"));
+        System.out.println("Is Nodes Adjustance: " + graph.isNodesAdjustance("a", "b"));
+
+
 
 
 
