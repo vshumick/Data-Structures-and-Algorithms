@@ -10,7 +10,7 @@ class Graph {
         edges = new ArrayList<>();
     }
 
-    public Node findNode(String key) {
+    private Node findNode(String key) {
         for (Node node : nodes) {
             if (node.key == key) {
                 return node;
@@ -138,18 +138,18 @@ class Graph {
                 '}';
     }
 
-    class Node {
+    private class Node {
         String key;
         Object data;
 
-        public Node(String key, Object data) {
+        Node(String key, Object data) {
             this.key = key;
             this.data = data;
         }
 
         @Override
         public String toString() {
-            return "Node{" +
+            return "{" +
                     "key='" + key + '\'' +
                     ", data=" + data +
                     '}';
