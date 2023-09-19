@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Graph {
+class Graph10 {
     List<Node> nodes;
     List<List<Node>> edges;
 
-    public Graph() {
+    public Graph10() {
         nodes = new ArrayList<>();
         edges = new ArrayList<>();
     }
@@ -120,7 +120,6 @@ class Graph {
             first = false;
             nodes += n.key;
         }
-        nodes += "}";
 
         first = true;
         for (List<Node> l : this.edges) {

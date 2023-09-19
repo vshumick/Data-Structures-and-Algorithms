@@ -28,8 +28,8 @@ public class Homework10 {
 
         System.out.println(col);
 
-        System.out.println("Exercise 1: ---------------------------------------------------------------------");
-        Graph graph = new Graph();
+        System.out.println("Exercise 2: ---------------------------------------------------------------------");
+        Graph10 graph = new Graph10();
         graph.addNode("a", null);
         graph.addNode("b", null);
         graph.addNode("c", null);

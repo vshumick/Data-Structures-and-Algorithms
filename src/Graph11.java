@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// Тип графа: список смежности (adjacency list)
 public class Graph11 {
     private class Node {
         String id;
