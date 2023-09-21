@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd2e0de1-8ed4-4857-9197-cb10e37129fe" name="Changes" comment="Data Structures and Algorithms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework10">
+  <component name="RunManager" selected="Application.Task12">
     <configuration name="Graph11_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph11_3" />
       <module name="Data-Structures-and-Algorithms" />
@@ -78,15 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task11" />
+    <configuration name="Task12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task12" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test34" />
+    <configuration name="Test35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test35" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task12" />
+        <item itemvalue="Application.Test35" />
         <item itemvalue="Application.Homework10" />
         <item itemvalue="Application.Homework11" />
         <item itemvalue="Application.Graph11_3" />
-        <item itemvalue="Application.Task11" />
-        <item itemvalue="Application.Test34" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +109,7 @@
       <workItem from="1694082069882" duration="1322000" />
       <workItem from="1694083484151" duration="27895000" />
       <workItem from="1694619017081" duration="26831000" />
-      <workItem from="1695035847303" duration="17330000" />
+      <workItem from="1695035847303" duration="24622000" />
     </task>
     <task id="LOCAL-00001" summary="Data Structures and Algorithms">
       <option name="closed" value="true" />
@@ -179,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695039284083</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1695134478268</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695134478268</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1695134508867</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695134508867</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
