@@ -12,7 +12,6 @@ public class Task14_2 {
                         {1,5,5,7,9,0,8,1},
                         {1,5,5,7,9,0,8,1,2}
                       };
-
         int[][] res = getMaxGold(arr);
 
         for(int[] arr2 :res)
