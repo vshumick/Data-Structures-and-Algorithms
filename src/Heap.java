@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-public class Heap {
+public class  Heap {
     private class Node {
         int key;
         Object data;

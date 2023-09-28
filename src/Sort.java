@@ -4,12 +4,15 @@ import java.util.Stack;
 
 public class Sort {
     public static void main(String[] args) {
-        int arrLength = 100;
+        int arrLength = 1000000;
         int min = 0;
         int max = 1000;
 
         int[] arr = new int[arrLength];
         fillRandomArray(arr, min, max);
+
+        String[] arrStr = new String[arrLength];
+        fillRandomArrayString(arrStr, 10);
 
 
         /*int[] arr = new int[]//{ 5, 0, -2, 7, 3}
@@ -35,15 +38,21 @@ public class Sort {
         //mergeSort(arr);
         //quickSort(arr);
         //insertionSortPartly(arr, 0, arr.length - 1);
-        quickSort(arr);
+        //quickSort(arr);
         //quickSortMixed(arr);
         //selectionSortRecursive(arr);
         //quickSortCircular(arr);
         //mergeSortRecurcy(arr);
+        //HeapSort.heapSort(arr);
+
+        //HeapSortModified.heapSort(arr);
+        HeapSortModified2.heapSort(arrStr);
+
         //System.out.println(Arrays.toString(arr));
+        //System.out.println(Arrays.toString(arrStr));
 
         System.out.println("Elapsed time: " + (System.currentTimeMillis() - timeStart));
-        System.out.println(Arrays.toString(arr));
+        //System.out.println(Arrays.toString(arr));
 
 
 
@@ -479,6 +488,27 @@ public class Sort {
             randomNum =  rn.nextInt((max - min) + 1) + min;
             arr[i] = randomNum;
         }
+    }
+
+    private static void fillRandomArrayString(String[] arr, int stringLength) {
+        for (int i=0; i < arr.length; i++){
+            arr[i] = randGeneratedStr(stringLength);
+        }
+    }
+    static String randGeneratedStr(int l) {
+
+        // a list of characters to choose from in form of a string
+        String AlphaNumericStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvxyz0123456789";
+        // creating a StringBuffer size of AlphaNumericStr
+        StringBuilder s = new StringBuilder(l);
+        int i;
+        for (i = 0; i < l; i++) {
+            //generating a random number using math.random()
+            int ch = (int) (AlphaNumericStr.length() * Math.random());
+            //adding Random character one by one at the end of s
+            s.append(AlphaNumericStr.charAt(ch));
+        }
+        return s.toString();
     }
 
 
