@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dd2e0de1-8ed4-4857-9197-cb10e37129fe" name="Changes" comment="Data Structures and Algorithms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,37 +54,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework12">
-    <configuration name="Homework10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework10" />
+  <component name="RunManager" selected="Application.Task14_2">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework12" />
+    <configuration name="Homework13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework13" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task12" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task13" />
+    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task14" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test35" />
+    <configuration name="Task14_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task14_2" />
       <module name="Data-Structures-and-Algorithms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework12" />
-        <item itemvalue="Application.Task13" />
-        <item itemvalue="Application.Task12" />
-        <item itemvalue="Application.Test35" />
-        <item itemvalue="Application.Homework10" />
+        <item itemvalue="Application.Task14_2" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.Task14" />
+        <item itemvalue="Application.Homework13" />
+        <item itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +111,7 @@
       <workItem from="1694082069882" duration="1322000" />
       <workItem from="1694083484151" duration="27895000" />
       <workItem from="1694619017081" duration="26831000" />
-      <workItem from="1695035847303" duration="48743000" />
+      <workItem from="1695035847303" duration="61590000" />
     </task>
     <task id="LOCAL-00001" summary="Data Structures and Algorithms">
       <option name="closed" value="true" />
@@ -207,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695297550854</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1695721148471</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721148471</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Data Structures and Algorithms">
+      <option name="closed" value="true" />
+      <created>1695721157234</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695721157234</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

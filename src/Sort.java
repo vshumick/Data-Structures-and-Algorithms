@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Sort {
     public static void main(String[] args) {
-        int arrLength = 100;
+        int arrLength = 50000000;
         int min = 0;
         int max = 1000;
 
@@ -35,15 +35,17 @@ public class Sort {
         //mergeSort(arr);
         //quickSort(arr);
         //insertionSortPartly(arr, 0, arr.length - 1);
-        quickSort(arr);
+        //quickSort(arr);
         //quickSortMixed(arr);
         //selectionSortRecursive(arr);
         //quickSortCircular(arr);
         //mergeSortRecurcy(arr);
+        //HeapSort.heapSort(arr);
+        HeapSortModified.heapSort(arr);
         //System.out.println(Arrays.toString(arr));
 
         System.out.println("Elapsed time: " + (System.currentTimeMillis() - timeStart));
-        System.out.println(Arrays.toString(arr));
+        //System.out.println(Arrays.toString(arr));
 
 
 
