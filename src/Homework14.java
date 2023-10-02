@@ -34,10 +34,10 @@ public class Homework14 {
 
         while (!copyProducts.isEmpty()) {
             if (backpackWeight() < weight) {
-                Product maxWeight = maxWeight(copyProducts);
-                backPack.remove(maxWeight);
-                copyProducts.remove(maxWeight);
-                cost -= maxWeight.price;
+                Product maxWeightInBackPack = maxWeight(backPack);
+                backPack.remove(maxWeightInBackPack);
+                copyProducts.remove(maxWeightInBackPack);
+                cost -= maxWeightInBackPack.price;
                 cost += maxCost(weight - backpackWeight(), copyProducts);
                 possibleOptions.put(cost, (ArrayList<Product>) backPack.clone());
             } else {

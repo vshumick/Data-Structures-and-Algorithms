@@ -8,23 +8,23 @@ public class Sort {
         int min = 0;
         int max = 1000;
 
-        int[] arr = new int[arrLength];
-        fillRandomArray(arr, min, max);
+        //int[] arr = new int[arrLength];
+        //fillRandomArray(arr, min, max);
 
-        String[] arrStr = new String[arrLength];
-        fillRandomArrayString(arrStr, 10);
+        //String[] arrStr = new String[arrLength];
+        //fillRandomArrayString(arrStr, 10);
 
 
-        /*int[] arr = new int[]//{ 5, 0, -2, 7, 3}
-                             //{8, 4, 5, 7, 5, 5, 1, 7, 7, 6}
+        int[] arr = new int[]//{ 5, 0, -2, 7, 3}
+                             {8, 4, 5, 7, 5, 5, 1, 7, 7, 6}
                              //{1, 2, 4, 8, 10}
                              //{}
                              //{1,1,1}
                              //{1,1,1,1}
-                             {3,2,2}
-                ;*/
+                             //{3,2,2}
+                ;
 
-        //System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
 
         //System.out.println(Arrays.toString(merge(arr, 0,4,5, 9)));
 
@@ -33,7 +33,7 @@ public class Sort {
 
         //bubbleSort(arr);
         //selectionSort(arr);
-        //insertionSort(arr);
+        insertionSort(arr);
         //shakerSort(arr);
         //mergeSort(arr);
         //quickSort(arr);
@@ -46,13 +46,13 @@ public class Sort {
         //HeapSort.heapSort(arr);
 
         //HeapSortModified.heapSort(arr);
-        HeapSortModified2.heapSort(arrStr);
+        //HeapSortModified2.heapSort(arrStr);
 
         //System.out.println(Arrays.toString(arr));
         //System.out.println(Arrays.toString(arrStr));
 
         System.out.println("Elapsed time: " + (System.currentTimeMillis() - timeStart));
-        //System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
 
 
 
