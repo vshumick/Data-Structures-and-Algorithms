@@ -1,7 +1,8 @@
-public class PrefixTree {
+//Added reading data from JSON
+public class PrefixTree2 {
     private TrieNode root;
 
-    public PrefixTree() {
+    public PrefixTree2() {
         root = new TrieNode();
     }
 
@@ -85,7 +86,7 @@ public class PrefixTree {
     }
 
     public static void main(String[] args) {
-        PrefixTree trie = new PrefixTree();
+        /*PrefixTree trie = new PrefixTree();
         trie.insert("cab");
         trie.insert("cabala");
         trie.insert("cabin");
@@ -95,15 +96,21 @@ public class PrefixTree {
         trie.insert("catharsis");
         trie.insert("cataclysm");
         trie.insert("category");
-        trie.insert("caterpillar");
-        //trie.insert("Target");
+        trie.insert("caterpillar");*/
+        ///
+        PrefixTree2 trie = Test43.loadObjectFromJson("trie.json", PrefixTree2.class);
+        ///
+
 
         //String query = "hell";
         //String query = "cate";
-        String query = "cat";
+        String query = "cate";
         //System.out.println("Suggestions for prefix \"" + query + "\":");
         System.out.println("Number of lines that start with a prefix '" + query + "':" + trie.printAutoSuggestions(query));
 
+        ///
+        //Test43.saveObjectToJson(trie, "trie.json");
+        ///
 
 
 
